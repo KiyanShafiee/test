@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: rgb(193, 230, 231);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menuContainer {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 200px;
+    background: rgb(213, 235, 118);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: auto;
+    border: 3px dashed #ccc;
+    border-radius: 4px;
+}
+
+#submitSignUp {
+    width: 100%;
+    padding: 10px;
+    background-color:aqua;
+    color: white;
+    border: double;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+#submitSignUp:hover { 
+    background-color: #350909;
+}
+
+
+#submitLogin {
+    width: 100%;
+    padding: 10px;
+    background-color:aqua;
+    color: rgb(44, 5, 80);
+    border: double;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+#submitLogin:hover { 
+    background-color: #350909;
+}
+
+#signUp, #login {
+    width: 100%;
+    padding: 10px;
+    background-color:rgb(172, 236, 215);
+    color: rgb(43, 1, 53);
+    border: double;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#signUp:hover, #login:hover{
+    background-color: aqua;
+}
+
+
+#result {
+    margin-top: 20px;
+}

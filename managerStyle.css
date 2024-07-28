@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    scrollbar-width: none;
+
+}
+
+.menu-container{
+    width: 100%;
+    border: 0.2px solid rgb(77, 71, 71);
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    background-color: white; 
+    z-index: 0;
+}
+
+.menu{
+    width: 95%;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.menu > div{
+    flex-direction: row-reverse;
+}
+
+.logo{
+    order: 6;
+    margin:0;
+}
+
+a{
+    color:rgb(107, 105, 105);
+    font-size: 20px;
+    font-family: 'B Koodak', Courier, monospace;
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+}
+
+.add-slab{
+    order: 5;
+    color:rgb(107, 105, 105);
+    font-size: 20px;
+    font-family: 'B Koodak', Courier, monospace;
+    text-align: center;
+    width: 20%;
+}
+
+.remove-slab{
+    order: 4;
+    color:rgb(107, 105, 105);
+    font-size: 20px;
+    font-family: 'B Koodak', Courier, monospace;
+    text-align: center;
+    width: 20%;
+}
+
+.read-comment{
+    order: 3;
+    color:rgb(107, 105, 105);
+    font-size: 20px;
+    font-family: 'B Koodak', Courier, monospace;
+    text-align: center;
+    width: 20%;
+}
+
+.first-page{
+    order: 3;
+    color:rgb(107, 105, 105);
+    font-size: 20px;
+    font-family: 'B Koodak', Courier, monospace;
+    text-align: center;
+    width: 20%;
+}
+
+.show-list{
+    order: 2;
+    color:rgb(107, 105, 105);
+    font-size: 20px;
+    font-family: 'B Koodak', Courier, monospace;
+    text-align: center;
+    width: 20%;
+}
+.menu-group{
+    width: 70%;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.add-slab:hover{
+    color:black;
+}
+.show-list:hover{
+    color:black;
+}
+.remove-slab:hover{
+    color:black;
+}
+.read-comment:hover{
+    color:black;
+}
+.first-page:hover{
+    color:black;
+}
+
+.acount {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    order: -2;
+    background-color: white; 
+    z-index: 0;
+
+}
+
+.acount-options {
+    display: none;
+    width: 400%;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 10px;
+    font-family: 'B Koodak';
+    font-size: 15px;
+}
+
+.acount:hover .acount-options {
+    display: block;
+}
+
+.acount-options .exit, .change-password {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.acount-options .change-password:hover , .exit:hover {
+    background-color: #f0f0f0;
+}
+
+a:hover{
+    color: black;
+}
+
+.other-location {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}

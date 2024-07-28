@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8" dir="rtl">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persian Slab</title>
+    <link rel="stylesheet" href="./managerStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./show-list-slabs.css">
+
+    
+</head>
+<body>
+    <div class="menu-container">
+
+        <div class="menu">  
+            <div class="logo">
+                <img src="./pictures/PersianSilk-g-big-5.jpg" alt="persian slab logo" style="width: 100px;">
+            </div>
+            
+            <div class="menu-group">
+                <div class="first-page">
+                    <a href="./slab-window.html"> صفحه اصلی</a> 
+                </div>
+
+                <div class="show-list">
+                    <a href="./show-list-slabs.html">لیست سنگ ها</a>
+                </div>            
+                  
+                <div class="read-comment">
+                    خواندن نظرات
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <div class="acount">
+            <i class="fa fa-user" aria-hidden="true" style="font-size: 30px;"></i>
+            <div class="acount-options">
+                <div class="user-info" id = "user-info">اطلاعات کاربری</div>
+                <div class="change-password">عوض کردن رمز عبور</div>
+                <div class="exit">خروج</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="list-photos">
+        <h1>لیست سنگ های موجود</h1>
+        <div id="data-container">
+            <div class="name-container">
+                <input type="checkbox" id = 1 value="0">
+            </div>
+
+        </div>
+        
+    </div>
+
+    <div class="list-buttons">
+        <button id="delete-button">حذف انتخاب شده ها</button>
+        <button id="edit-button">تغیر انتخاب شده</button>
+    </div>
+    
+
+    <script src="./show-list-slabs.js"></script>
+</body>
+</html>

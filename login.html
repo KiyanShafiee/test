@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persian Slab</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       h1 {
+    text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Person Information</h1>
+        <form id="infoForm2" action="./index.html">
+            <label for="username">Userame:</label>
+            <input type="username" id="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            
+            <button type="submit" id="submitLogin">Save</button>
+
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="loginScript.js"></script> <!-- This should be at the end -->
+</body>
+</html>

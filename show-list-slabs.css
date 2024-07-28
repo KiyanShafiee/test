@@ -1,0 +1,70 @@
+.list-photos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#data-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 300px;
+}
+
+.item{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: right; 
+
+    border: 1px dotted black;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'B Koodak';
+}
+
+.name-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right; 
+}
+
+#delete-button{
+    background-color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-family: 'B Koodak';
+}
+
+#delete-button:hover{
+    background-color: rgb(241, 44, 44);
+    color: rgb(44, 44, 44);
+
+}
+
+#edit-button{
+    background-color: green;
+    font-size: 20px;
+    font-family: 'B Koodak';
+}
+
+#edit-button:hover{
+    background-color: rgb(82, 241, 82);
+    color: rgb(44, 44, 44);
+
+}
+
+.list-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
